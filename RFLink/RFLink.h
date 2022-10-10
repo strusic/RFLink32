@@ -32,7 +32,7 @@
 
 #if (defined(ESP32) || defined(ESP8266))
 // OLED display, 0.91" SSD1306 I2C
-// #define OLED_ENABLED
+#define OLED_ENABLED
 #define OLED_CONTRAST 32 // default 255 (max)
 #define OLED_FLIP true   // default false
 
